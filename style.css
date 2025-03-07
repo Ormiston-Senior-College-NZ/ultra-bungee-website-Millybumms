@@ -1,4 +1,4 @@
-/* Universal Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +14,12 @@ body {
     min-height: 100vh;
 }
 
-/* Top Navigation Bar */
+
 .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0088cc;
+    background-color: #1df6e0;
     padding: 15px 20px;
 }
 
@@ -42,14 +42,15 @@ body {
 }
 
 .menu ul li a:hover {
-    background: #005f99;
+    background: white;
     border-radius: 5px;
 }
 
-/* Hero Section */
+
 .hero-section {
     display: flex;
-    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -60,11 +61,13 @@ body {
 .content h1 {
     font-size: 2.8rem;
     margin-bottom: 25px;
+    font-family: 'sarial';
 }
 
 .action-buttons {
     display: flex;
     gap: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .cta-btn {
@@ -83,9 +86,8 @@ body {
     background-color: #4ecc00;
 }
 
-/* Footer */
 .footer-bar {
-    background-color: #0088cc;
+    background-color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -94,6 +96,6 @@ body {
 }
 
 .footer-bar p {
-    color: #fff;
+    color: black;
     font-size: 0.9rem;
 }
