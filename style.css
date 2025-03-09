@@ -73,6 +73,7 @@ body {
     font-size: 3rem;
     margin-bottom: 15px;
     text-shadow: 2px 2px 4px #1df6e0;
+    font-family: 'saira', sans-serif;
 }
 
 .Jumps p {
@@ -127,4 +128,9 @@ body {
 
 .social-link:hover {
     color: #ff6b6b;
+}
+.Jumps-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
