@@ -134,3 +134,10 @@ body {
     margin-bottom: 30px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+.Bridge-Header {
+    color: #1df6e0;
+    padding: 100px 20px 50px 20px;
+    offset-position: 100px;
+}
+
