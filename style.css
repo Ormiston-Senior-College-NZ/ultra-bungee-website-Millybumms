@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +60,7 @@ body {
     color: #1df6e0;
 }
 
-.Jumps-section {
+.jumps-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,14 +70,14 @@ body {
     padding: 0 20px;
 }
 
-.Jumps h2 {
+.jumps h2 {
     font-size: 3rem;
     margin-bottom: 15px;
     text-shadow: 2px 2px 4px #1df6e0;
     font-family: 'saira', sans-serif;
 }
 
-.Jumps p {
+.jumps p {
     font-size: 1.2rem;
     margin-bottom: 30px;
     color: #ddd;
@@ -137,19 +139,16 @@ body {
 
 .bridge-header {
     color: #1df6e0;
-    padding: 100px 20px 50px 20px;
-}
-
-.adult {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 20px 20px 40px 20px;
-    font-weight: 400;
+    text-decoration: underline;
+    font-family: 'saira', sans-serif;
 }
-.kids {
+.bridge-content {
+    text-align: center;
+    
+    
+}
+.prices {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,4 +157,17 @@ body {
     padding: 20px 20px 40px 20px;
     font-weight: 400;
     font-size: larger;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.instructor {
+   font-family: 'saira', sans-serif;
+}
+
+.more-info {
+    font-family: 'saira', sans-serif;
+}
+
+.book-now {
+    font-family: 'saira', sans-serif;
 }
