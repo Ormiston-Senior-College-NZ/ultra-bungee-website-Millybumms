@@ -11,10 +11,23 @@ body {
   background: url("https://www.newzealand.com/assets/Digital-Platform-Use-Only/TBD-assets-on-nonlistings/img-1606192374-9637-10870-kawarau-bungy-01__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg")
     no-repeat center center fixed;
   background-size: cover;
-  color: #fff;
+  color: white;
   min-height: 100vh;
   line-height: 1.6;
+  position: relative;
 }
+
+body.bridge-body ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.01); 
+  z-index: -1;
+}
+
 
 .top-header {
   display: flex;
@@ -158,11 +171,11 @@ body {
   background-color: rgba(255, 255, 255, 0.614);
   border-radius: 8px;
   max-width: 600px;
-  transition: transform 0.3s ease; /* Added transition for smooth effect */
+  transition: transform 0.3s ease; 
 }
 
 .prices:hover {
-  transform: scale(1.05); /* Scale effect on hover */
+  transform: scale(1.05); 
 }
 
 .book-now {
@@ -181,4 +194,21 @@ body {
 
 .more-info {
   font-size: 1.5rem;
+  text-align: center;
+  padding: 30px 15px 15px 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap to the next line */
+  gap: 10px; /* Space between images */
+  padding: 10px;
+}
+
+.gallery-image {
+  width: 150px; /* Fixed width for small images */
+  height: 150px; /* Fixed height for small images */
+  object-fit: cover; /* Ensures images cover the container without distortion */
+  border-radius: 8px; /* Optional: Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
